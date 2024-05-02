@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Red Hat Display", sans-serif; 
+    background-color: hsl(225, 100%, 94%);
+    margin: 100px 30px 50px 30px;
+}
+
+main {
+    background-color: white;
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+svg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 1.7em;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.texto {
+    line-height: 25px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.fundo {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+}
+
+.plano {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.valor {
+    text-align: center;
+}
